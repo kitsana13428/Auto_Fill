@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+    min-height: 100vh; /* เกลี่ยสีไม่ให้มีเส้น */
+}
+
 .container {
     max-width: 100%;
     display: flex;
@@ -12,6 +18,42 @@
     padding: 5rem;
 }
 
-h2 {
+h1 {
     margin: 20px 0;
+}
+
+span {
+    font-size: 1.5rem;
+}
+
+.form-control {
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.txt {
+    cursor: pointer;
+    width: 100%;
+    padding: 15px;
+    margin: 5px;
+    outline: none;
+    border: none;
+    border-radius: 10px; /* มุมของกล่องข้อความโค้งมน */
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+button {
+    font-size: 1.5rem;
+    width: 70px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(174, 79, 238);
+    
+}
+
+button:hover {
+    background-color: rgb(107, 51, 145);
 }

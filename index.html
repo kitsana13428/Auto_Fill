@@ -7,14 +7,35 @@
     <title>Auto-Fill</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://earthchie.github.io/jquery.Thailand.js/jquery.Thailand.js/dependencies/JQL.min.js"></script>
+    <script type="text/javascript" src="https://earthchie.github.io/jquery.Thailand.js/jquery.Thailand.js/dependencies/typeahead.bundle.js"></script>
+    <link rel="stylesheet" href="https://earthchie.github.io/jquery.Thailand.js/jquery.Thailand.js/dist/jquery.Thailand.min.css">
+    <script type="text/javascript" src="https://earthchie.github.io/jquery.Thailand.js/jquery.Thailand.js/dist/jquery.Thailand.min.js"></script>
+
+
 </head>
 <body>
     <div class="container">
-        <h2>ที่อยู่ประเทศไทย</h2>
-        <div class="from-control">
+        <h1>กรุณากรอกที่อยู่</h1>
+        <div class="form-control">
             <span>ตำบล</span>
-            <input type="text" class="txt">
+            <input type="text" class="txt" id="district" placeholder="กรอกตำบลของคุณ">
         </div>
+        <div class="form-control">
+            <span>อำเภอ</span>
+            <input type="text" class="txt" id="amphoe" placeholder="กรอกอำเภอของคุณ">
+        </div>
+        <div class="form-control">
+            <span>จังหวัด</span>
+            <input type="text" class="txt" id="province" placeholder="กรอกจังหวัดของคุณ">
+        </div>
+        <div class="form-control">
+            <span>รหัสไปรษณีย์</span>
+            <input type="text" class="txt" id="zipcode" placeholder="กรอกรหัสไปรษณีย์ของคุณ">
+        </div>
+         <button>ตกลง</button> 
     </div>
+    
 </body>
 </html>
